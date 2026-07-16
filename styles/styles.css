@@ -24,7 +24,6 @@ input {
 .body {
   width: 1921px;
   height: 900px;
-  background-color: #1a1a1a;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -79,5 +78,27 @@ input {
 .socialMediaContainer {
   display: flex;
   gap: 22px;
+}
 
+.servicesContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 150px 365px;
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.servicesText{
+  display: flex;
+  gap: 89px;
+}
+
+.servicesBox{
+  display: flex;
+  gap: 89px;
+  background-color: #a73838;
 }
