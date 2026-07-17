@@ -22,8 +22,9 @@ input {
 }
 
 .body {
-  width: 1921px;
-  height: 900px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -31,22 +32,22 @@ input {
   background-image: url(../styles/img/фон.jpg);
   width: 100vw;
   min-height: 100vh;
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   color: white;
-} 
-.logo{
+}
+.logo {
   width: 182px;
   height: 72px;
 }
 
-.headerText{
+.headerText {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,12 +56,12 @@ input {
   font-weight: 400;
 }
 
-.headerH1{
+.headerH1 {
   font-size: 64px;
   font-weight: 700;
 }
 
-.headerH2{
+.headerH2 {
   font-size: 42px;
   font-weight: 400;
 }
@@ -80,24 +81,24 @@ input {
   gap: 22px;
 }
 
-.servicesContainer{
+.servicesContainer {
   display: flex;
   flex-direction: column;
   padding: 150px 365px;
 }
 
-.services{
+.services {
   display: flex;
   flex-direction: column;
   gap: 60px;
 }
 
-.servicesText{
+.servicesText {
   display: flex;
   gap: 89px;
 }
 
-.servicesBox{
+.servicesBox {
   display: flex;
   gap: 89px;
   background-color: #a73838;
