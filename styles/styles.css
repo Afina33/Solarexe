@@ -171,3 +171,25 @@ ol {
   font-size: 14px;
   color: #303030
 }
+
+
+.greenTariffBox{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex:1;
+  min-width: 235px;
+  min-height: 110px;
+}
+
+.greenTariffContainerBox{
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  flex-wrap: wrap;  
+}
+
+.boxcontroler{
+  display: flex;
+  gap: 40px;
+}
