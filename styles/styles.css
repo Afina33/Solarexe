@@ -15,13 +15,13 @@ h6,
 p,
 li,
 a,
-ul, 
+ul,
 ol {
   margin: 0;
   padding: 0;
-  text-decoration: none; 
-  color: inherit; 
-  list-style: none; 
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
 }
 
 #root {
@@ -156,40 +156,39 @@ ol {
   }
 }
 
-.greenTariffContainer{
+.greenTariffContainer {
   display: flex;
   gap: 40px;
 }
 
-.greenTariff{
+.greenTariff {
   display: flex;
   flex-direction: column;
   gap: 100px;
 }
 
-.greenTariffText{
+.greenTariffText {
   font-size: 14px;
-  color: #303030
+  color: #303030;
 }
 
-
-.greenTariffBox{
+.greenTariffBox {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  flex:1;
+  flex: 1;
   min-width: 235px;
   min-height: 110px;
 }
 
-.greenTariffContainerBox{
+.greenTariffContainerBox {
   display: flex;
   flex-direction: column;
   gap: 19px;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
 }
 
-.boxcontroler{
+.boxcontroler {
   display: flex;
   gap: 40px;
 }
