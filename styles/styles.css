@@ -187,8 +187,35 @@ ol {
   gap: 19px;
   flex-wrap: wrap;
 }
+.greenContainerBox {
+  display: flex;
+  gap: 40px;
+}
 
 .boxcontroler {
   display: flex;
   gap: 40px;
+}
+
+.greenTariffH3 {
+  color: #303030;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.imgGreenTariff2 {
+  width: 600px;
+  height: 525px;
+}
+
+.greenTariffContainer {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+}
+
+.greenT {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
 }
