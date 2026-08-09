@@ -240,3 +240,33 @@ ol {
   font-weight: 400;
   color: white;
 }
+
+.BlockClientBase{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.ClientBlock{
+  display: flex;
+  gap: 140px;
+}
+
+.BlockParameter{
+  display:flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.ClientBlockList{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.btnClient{
+  width: 300px;
+  padding: 10px;
+  
+}
