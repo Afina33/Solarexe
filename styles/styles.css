@@ -268,5 +268,7 @@ ol {
 .btnClient{
   width: 300px;
   padding: 10px;
-  
+  background-color: transparent;
+  border: #303030 solid 1px;
+  border-radius: 15px;
 }
