@@ -272,3 +272,13 @@ ol {
   border: #303030 solid 1px;
   border-radius: 15px;
 }
+
+
+.futter{
+  background-image: url(./img/Rectangle\ 13.png);
+  min-width: 100vh;
+  min-height: 730px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
