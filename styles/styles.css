@@ -273,6 +273,35 @@ ol {
   border-radius: 15px;
 }
 
+.boxElectro{
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.greenAuto{
+  display: flex;
+  /* flex-direction: column; */
+  gap: 90px;
+  
+}
+.greenAutoTariff{
+  display: flex;
+
+}
+.imgEauto{
+  width: 600px;
+  height: 730px;
+}
+
+.boxElectroControler{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 30px;
+  width: 510px;
+  min-height: 604px;
+}
 
 .futter{
   background-image: url(./img/Rectangle\ 13.png);
